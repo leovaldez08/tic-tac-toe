@@ -9,7 +9,7 @@ body {
 
 #heading {
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   color: #fab201;
   -webkit-text-stroke: 5px white;
 }
@@ -17,6 +17,25 @@ body {
 footer {
   color: white;
   font-weight: 900;
-  text-align: center;
   font-size: 30px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 100px;
+}
+
+.box {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+#row1,
+#row2,
+#row3 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
