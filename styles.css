@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: #fab201;
-  -webkit-text-stroke: 5px white;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
 }
 
 footer {
