@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: #fab201;
-  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
 }
 
 footer {
@@ -19,17 +19,24 @@ footer {
   font-weight: 900;
   font-size: 30px;
   text-align: center;
-  /* display: flex;
-  justify-content: center; */
   padding-top: 100px;
 }
 
-.box {
-  background-color: white;
+.cell {
+  background-color: rgb(255, 255, 255);
   height: 100px;
   width: 100px;
   border-radius: 8px;
   margin: 5px;
+  font-size: 80px;
+  text-align: center;
+  color: #fab201;
+  -webkit-text-stroke: 5px rgb(34, 34, 34);
+}
+
+.cell:hover {
+  background-color: rgb(187, 184, 184);
+  transition: 0.4s;
 }
 
 #row1,
