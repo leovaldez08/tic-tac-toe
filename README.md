@@ -1,2 +1,3 @@
 # tic-tac-toe
-This is small game created using basic Javascript concepts.
+
+This is a small game created using basic HTML, CSS and Javascript concepts.

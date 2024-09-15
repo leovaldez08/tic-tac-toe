@@ -14,14 +14,6 @@ body {
   -webkit-text-stroke: 3px rgb(255, 255, 255);
 }
 
-footer {
-  color: white;
-  font-weight: 900;
-  font-size: 30px;
-  text-align: center;
-  padding-top: 100px;
-}
-
 .cell {
   background-color: rgb(255, 255, 255);
   height: 100px;
